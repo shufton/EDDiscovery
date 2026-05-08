@@ -476,6 +476,7 @@
     <EmbeddedResource Include="Controls\notfirstdiscover.png" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Ships\mediumtransport01.jpg" />
     <EmbeddedResource Include="Ships\smallcombat01_nx.jpg" />
     <EmbeddedResource Include="Stations\AsteroidBase.jpg" />
     <EmbeddedResource Include="Stations\Coriolis.jpg" />
@@ -1208,6 +1209,12 @@
     <EmbeddedResource Include="Controls\ColourSelector.png" />
     <EmbeddedResource Include="Controls\FastForward.png" />
     <EmbeddedResource Include="Bodies\Planets\Unknown.png" />
+    <EmbeddedResource Include="Controls\Gimbal48.png" />
+    <EmbeddedResource Include="Controls\Fixed48.png" />
+    <EmbeddedResource Include="Controls\Turret48.png" />
+    <EmbeddedResource Include="Controls\Engineered48.png" />
+    <EmbeddedResource Include="Controls\PowerOn48.png" />
+    <EmbeddedResource Include="Controls\PowerOff48.png" />
     <Content Include="Controls\readme.txt" />
     <EmbeddedResource Include="Panels\MissionOverlay.png" />
     <EmbeddedResource Include="Journal\CrimeVictim.png" />

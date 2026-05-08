@@ -144,8 +144,8 @@
       <DependentUpon>Controls.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </None>
-    <Reference Include="GLOFC, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>$(SolutionDir)\packages\RJKJSoft.GLOFC.1.1.2\lib\net48\GLOFC.dll</HintPath>
+    <Reference Include="GLOFC, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>$(SolutionDir)\packages\RJKJSoft.GLOFC.1.2.0\lib\net48\GLOFC.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.1054.31, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
       <HintPath>$(SolutionDir)\packages\Microsoft.Web.WebView2.1.0.1054.31\lib\net45\Microsoft.Web.WebView2.Core.dll</HintPath>
@@ -165,7 +165,7 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="QuickJSON, Version=2.10.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RJKJSoft.QuickJSON.2.10.0\lib\net48\QuickJSON.dll</HintPath>
+      <HintPath>$(SolutionDir)\packages\RJKJSoft.QuickJSON.2.10.0\lib\net48\QuickJSON.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -467,6 +467,7 @@
     <Compile Include="UserControls\Webbrowser\BrowserWebView2.cs" />
     <Compile Include="UserControls\Webbrowser\BrowserIE11.cs" />
     <Compile Include="WebServer\EDDWebGenericUI.cs" />
+    <Compile Include="WebServer\EDDWebModuleDisplay.cs" />
     <Compile Include="WebServer\EDDWebTexts.cs" />
     <Compile Include="WebServer\EDDWebPresskey.cs" />
     <Compile Include="WebServer\EDDWebJournal.cs" />
